@@ -17,9 +17,7 @@ class Task {
     init(title: String, completed: Bool) {
         self.title = title
         self.completed = completed
-      }
-  
-        
     }
+}
 
 

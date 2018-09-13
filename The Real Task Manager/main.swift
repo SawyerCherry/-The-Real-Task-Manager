@@ -8,5 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
+print("Hello, Welcome to your personalized Task Manager")
 
+
+let menu = Menu()
+menu.go()

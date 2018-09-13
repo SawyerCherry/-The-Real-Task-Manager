@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F27E5B7D2147F3BB00EC9F41 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E5B7C2147F3BB00EC9F41 /* main.swift */; };
+		F27E5B842147F7C500EC9F41 /* library.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E5B832147F7C500EC9F41 /* library.swift */; };
+		F27F5A1B2149488900762FF2 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27F5A1A2149488900762FF2 /* Menu.swift */; };
+		F27F5A1D21494FEE00762FF2 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27F5A1C21494FEE00762FF2 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		F27E5B792147F3BB00EC9F41 /* The Real Task Manager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "The Real Task Manager"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27E5B7C2147F3BB00EC9F41 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F27E5B832147F7C500EC9F41 /* library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = library.swift; sourceTree = "<group>"; };
+		F27F5A1A2149488900762FF2 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		F27F5A1C21494FEE00762FF2 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				F27E5B7C2147F3BB00EC9F41 /* main.swift */,
+				F27F5A1A2149488900762FF2 /* Menu.swift */,
+				F27E5B832147F7C500EC9F41 /* library.swift */,
+				F27F5A1C21494FEE00762FF2 /* Task.swift */,
 			);
 			path = "The Real Task Manager";
 			sourceTree = "<group>";
@@ -119,7 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F27F5A1D21494FEE00762FF2 /* Task.swift in Sources */,
+				F27F5A1B2149488900762FF2 /* Menu.swift in Sources */,
 				F27E5B7D2147F3BB00EC9F41 /* main.swift in Sources */,
+				F27E5B842147F7C500EC9F41 /* library.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

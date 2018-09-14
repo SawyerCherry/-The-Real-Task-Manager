@@ -78,7 +78,7 @@ class Menu {
         }
     }
     func validateInput(_ input: String) -> Bool {
-        let menuOptions = Array(1...7)
+        let menuOptions = Array(1...8)
         
         guard let number = Int(input) else { return false }
         
